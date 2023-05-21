@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./parts/head'); %>
+    <title>Довідник (адмінка)</title>
+</head>
+<body>
+    <div class="wrap">
+        <%- include('./parts/header'); %>
+        <h2>Додавання авторів</h2>
+        <div class="content">
+            <div class="autorsAdd">
+                <form name="addAutors">
+                    <input type="text" name="autorSurname" placeholder="Прізвище автора">
+                    <input type="text" name="autorName" placeholder="Ім'я автора">
+                    <button type="submit" name="btnAdd">Додати</button>
+                </form>
+            </div>
+            <div class="autorsList">
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+</html>
